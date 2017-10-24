@@ -25,3 +25,32 @@ User click and Survey probability - 5% = 0.05
 Average user spend = 15 minutes
 
 It seems there is no relationship between Survey and the average time spending. The Survey comes only for 0.05 % for the user which is 5 i 100 users so this is not a right data to find the average timing spend on the website.
+
+
+--------- Given ----------
+Person Suffering and result is +ve = 98%
+
+Person is not Suffering and result is +ve = 10%
+
+Population Sufferer is = 0.05%
+
+---------- Derived ----------
+
+1. 0.5% of having Th (99.95% doesn't have Th)
+
+2. 98% gives pos result when Th is there (means 2% is miss)
+
+3. 10% given postive when its not there (means 90% gives -ve result when not there)
+
+Th (0.05)
+No Th (99.95)
+
+Test Pos (having Th - true pos) - 0.05% * 98% = 0.00049
+
+Test Pos (having no Th) - 10% * 99.95% = 0.0999
+
+Test Neg (having Th) - 2% * 0.05 = 
+
+Test Neg (having no Th)
+
+1. 0.00049 + 0.0999 = 0.10044
